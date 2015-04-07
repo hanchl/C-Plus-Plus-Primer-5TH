@@ -20,4 +20,14 @@ void Exe6_33(vector<int> v);
 //Exe6_34 the answer will  be 0;
 //Exe6_35 to aviod change the value;the value of val-- is val,if we do so,there will be recursion loop.
 //Exe6_36 int (&foo(int i)) [10]
-int(&foo(int i))[10];
+/* Exe6_37  
+	type alias:
+typedef int array[10];
+using array = int[10];
+array& foo();
+  trailing rturn 
+auto foo()->int(&)[10];
+  decltype:
+int array[10];
+decltype(array) &foo(); */
+auto Exe6_38(int i)->int(&)[5];

@@ -22,9 +22,7 @@ int main()
 	
 	/*vector<int> v = { 1, 2, 3, 4, 5 };
 	Exe6_33(v);*/
-	int (&r)[10] = array;
-	int (&ar)[10] = func();
-	cout<<ar[1];
+	
 	system("pause");
 
 }
