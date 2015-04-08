@@ -14,7 +14,7 @@ void Exe5_21(); //5.21
 
 int Exe6_27(initializer_list<int> il);//6.27¡∑œ∞Ã‚
 bool Exe6_30(const string &str1, const string str2);
-//Exe6_31  it's vsild to return a reference that the returned reference  is used vaild(used as a lvalue or rvalue);If return a const refernce it's vaild to be used as an rvalue.
+//Exe6_31  it's vaild to return a reference that the returned reference  is used vaild(used as a lvalue or rvalue);If return a const refernce it's vaild to be used as an rvalue.
 int &Exe6_32(int *array, int index);
 void Exe6_33(vector<int> v);
 //Exe6_34 the answer will  be 0;
@@ -31,3 +31,12 @@ auto foo()->int(&)[10];
 int array[10];
 decltype(array) &foo(); */
 auto Exe6_38(int i)->int(&)[5];
+//Exe6_39
+//Exe6_40 (a) right;(b) wrong :If a parameter has a default arguments, all the parameters that follow it must have default arguments.
+//Exe6_41 (a) illegal: The first parameter don't have a default argument.£®b) legal. (c) legal but don't match the programmer's intent.'*' will be converted to int .
+//Exe6_42 I don't understand ...
+//Exe6_43 (a) inline in a source file ;(b) int a header file so as it can be found in every source file.
+//Exe6_44
+inline bool isShorter(const string &s1, const string &s2) { return s1.size < s2.size; }
+//Exe6_45 Exe6_46 pass..
+//Exe6_46
