@@ -38,5 +38,7 @@ auto Exe6_38(int i)->int(&)[5];
 //Exe6_43 (a) inline in a source file ;(b) int a header file so as it can be found in every source file.
 //Exe6_44
 inline bool isShorter(const string &s1, const string &s2) { return s1.size < s2.size; }
+
+
 //Exe6_45 Exe6_46 pass..
 //Exe6_46
