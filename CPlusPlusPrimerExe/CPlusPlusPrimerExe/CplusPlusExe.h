@@ -42,3 +42,6 @@ inline bool isShorter(const string &s1, const string &s2) { return s1.size < s2.
 
 //Exe6_45 Exe6_46 pass..
 //Exe6_46
+
+//Exe6_47  pass
+//Exe6_48 It's wrong.When cin falls,it returns 0 and then the loop will stop  the program will be terminated. 
