@@ -37,7 +37,7 @@ auto Exe6_38(int i)->int(&)[5];
 //Exe6_42 I don't understand ...
 //Exe6_43 (a) inline in a source file ;(b) int a header file so as it can be found in every source file.
 //Exe6_44
-inline bool isShorter(const string &s1, const string &s2) { return s1.size < s2.size; }
+//inline bool isShorter(const string &s1, const string &s2) { return s1.size < s2.size; }
 
 
 //Exe6_45 Exe6_46 pass..
@@ -45,3 +45,6 @@ inline bool isShorter(const string &s1, const string &s2) { return s1.size < s2.
 
 //Exe6_47  pass
 //Exe6_48 It's wrong.When cin falls,it returns 0 and then the loop will stop  the program will be terminated. 
+//Exe6_49 Condidate function :functions that match the call    Viable function : function that best match the call.
+//Exe6_50  (a):illegal call: no best match; (b£©£ºf(int);(c): f(int,int);(d) (double,double=3.14)
+//Exe6_51   see main.cpp
