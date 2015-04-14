@@ -48,3 +48,6 @@ auto Exe6_38(int i)->int(&)[5];
 //Exe6_49 Condidate function :functions that match the call    Viable function : function that best match the call.
 //Exe6_50  (a):illegal call: no best match; (b£©£ºf(int);(c): f(int,int);(d) (double,double=3.14)
 //Exe6_51   see main.cpp
+//Exe6_52 (a):1;(b):1
+//Exe6_53  pass
+//int Exe6_54(int val1, int val2) 6_55 6_56  just pass for now;
