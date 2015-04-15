@@ -10,6 +10,7 @@ using namespace std;
 
 void Ex5_20();  //C++ primer 5.20¡∑œ∞Ã‚
 void Exe5_21(); //5.21
+void Exe5_22();
 
 
 int Exe6_27(initializer_list<int> il);//6.27¡∑œ∞Ã‚
