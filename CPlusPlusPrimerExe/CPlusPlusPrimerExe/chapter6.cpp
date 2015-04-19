@@ -48,3 +48,4 @@ auto Exe6_38(int i)->int(&)[5]
 {
 	return i % 2 == 1 ? odd : even;
 }
+

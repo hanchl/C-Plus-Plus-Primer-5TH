@@ -33,7 +33,13 @@ void Exe5_21()
 		s2 = s1;
 	}
 }//C++ primer 5.21练习题
-inline int get_size(){ return 0; }
+
+// 5_22联系需要
+inline int get_size()
+{
+	return 0; 
+}
+
 void Exe5_22()
 {	
 	int sz = get_size();
