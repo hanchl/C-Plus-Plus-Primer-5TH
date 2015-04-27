@@ -1,4 +1,6 @@
-#incldue"CplusPlus.h"
+#include "CplusPlusExe.h"
 
-
-
+struct  Sales_data
+{
+	std::string booNo;
+};
