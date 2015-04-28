@@ -2,5 +2,5 @@
 
 struct  Sales_data
 {
-	std::string booNo;
+	std::string bookNo;
 };
