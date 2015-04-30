@@ -3,4 +3,6 @@
 struct  Sales_data
 {
 	std::string bookNo;
+
+
 };
