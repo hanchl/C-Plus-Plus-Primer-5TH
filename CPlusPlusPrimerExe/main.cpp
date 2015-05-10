@@ -1,7 +1,6 @@
-#include"CplusPlusExe.h"
-//main()函数，只做调用
-//Exe6_51
+#include "CplusPlusExe.h"
 
+//Exe6_51
 void f()
 {
 	cout << " f with null parameters\n";
@@ -46,7 +45,11 @@ int main()
 	Exe6_33(v);*/
 	f(2.56, 3.14);
 
-	system(" pause ");
+	#ifdef __WINDOWS_
+		
+		system(" pause ");
+	
+	#endif
 
 	return 0;
 }
