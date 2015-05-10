@@ -32,7 +32,7 @@ build/
 *.pgc
 *.pgd
 *.rsp
-*.sbr
+*.sbrcp	
 *.tlb
 *.tli
 *.tlh
