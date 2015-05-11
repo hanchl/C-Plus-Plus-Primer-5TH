@@ -21,13 +21,13 @@ void f(double dval1, double dval2 = 3.14)
 	cout << "f with two double parameters :" << dval1 << "   " << dval2 << endl;
 }
 
-//test for recusion loop 
+//test for recusion loop
 int recloop(int val)
 {
 	if (val > 1)
-		return recloop(val-1)*val;
+		return recloop(val - 1) * val;
 	return 1;
-};   
+};
 
 int array[10];
 
@@ -40,16 +40,18 @@ int main()
 {
 	//cout << Exe6_27({1});
 	//Exe5_21();
-	
+
 	/*vector<int> v = { 1, 2, 3, 4, 5 };
 	Exe6_33(v);*/
-	f(2.56, 3.14);
+	// f(2.56, 3.14);
 
-	#ifdef __WINDOWS_
-		
-		system(" pause ");
-	
-	#endif
+	Exe8_4();
+
+#ifdef __WINDOWS_
+
+	system(" pause ");
+
+#endif
 
 	return 0;
 }

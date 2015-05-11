@@ -9,6 +9,7 @@
 #include <string>
 #include <initializer_list>
 #include <algorithm>
+#include <fstream>
 using namespace std;
 
 void Ex5_20();  //C++ primer 5.20
@@ -54,3 +55,8 @@ auto Exe6_38(int i)->int(&)[5];
 //Exe6_52 (a):1;(b):1
 //Exe6_53  pass
 //int Exe6_54(int val1, int val2) 6_55 6_56  just pass for now;
+
+
+istream&  Exe8_1(istream& in);
+void Exe8_4();
+void Exe8_5();

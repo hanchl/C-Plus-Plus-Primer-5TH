@@ -1,6 +1,6 @@
 #include"CplusPlusExe.h"
 
-int Exe6_27(initializer_list<int> il)  //6.27 ·µ»Øinitializer_list<int> µÄºÍ
+int Exe6_27(initializer_list<int> il)  //6.27 initializer_list<int>
 {
 	if (il.size() <= 0)
 		exit(1);
@@ -21,7 +21,7 @@ bool Exe6_30(const string &str1, const string &str2)
 	auto size = str1.size() < str2.size() ? str1.size() : str2.size(); {
 		for (decltype(size) i = 0; i != size; ++i)
 			if (str1[i] != str2[i])
-				return   false;  
+				return   false;
 	}
 	return false;
 }
