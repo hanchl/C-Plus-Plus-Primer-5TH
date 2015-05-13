@@ -1,8 +1,9 @@
-#include "CplusPlusExe.h"
 #include <fstream>
 #include <sstream>
 #include <string>
 
+#include "CplusPlusExe.h"
+#include "Sales_data.h"
 istream&  Exe8_1(istream& in)
 {
 	auto old_state = in.rdstate();
@@ -52,7 +53,7 @@ void Exe8_4()
 	{
 		vector<string> CMakeLists;
 		string line;
-		while(getline(infile,line))
+		while(getline(infile, line))
 		{
 			CMakeLists.push_back(line);
 		}
@@ -83,4 +84,9 @@ void Exe8_5()
 			cout<<i<<endl;
 		}
 	}
+}
+
+void Exe8_6()
+{
+	Sales_data test;
 }

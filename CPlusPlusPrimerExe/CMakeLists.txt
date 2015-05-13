@@ -18,8 +18,8 @@ add_executable(
 	main
 	main.cpp
 	CplusPlusExe.h
+	Sales_data.h
 	chapter8.cpp
-	chapter7.cpp
 	chapter6.cpp
 	chapter5.cpp
     )

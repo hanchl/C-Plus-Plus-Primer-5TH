@@ -29,12 +29,14 @@ int recloop(int val)
 	return 1;
 };
 
-int array[10];
+// int array[10];
 
-int( &func() ) [10]
-{
-	return  array;
-}
+// int( &func() ) [10]
+// {
+// 	return  array;
+// }
+
+
 
 int main()
 {
@@ -45,8 +47,13 @@ int main()
 	Exe6_33(v);*/
 	// f(2.56, 3.14);
 
-	Exe8_4();
+	// Exe8_4();
+	list<deque<int>> val;
+	// val.push_back(12);
+	// cout<<a<<endl;
+	array<int, 12>  aal;
 
+	
 #ifdef __WINDOWS_
 
 	system(" pause ");

@@ -7,9 +7,13 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <array>
+#include <deque>
+#include <list>
 #include <initializer_list>
 #include <algorithm>
 #include <fstream>
+
 using namespace std;
 
 void Ex5_20();  //C++ primer 5.20
@@ -60,3 +64,4 @@ auto Exe6_38(int i)->int(&)[5];
 istream&  Exe8_1(istream& in);
 void Exe8_4();
 void Exe8_5();
+void Exe8_6();
