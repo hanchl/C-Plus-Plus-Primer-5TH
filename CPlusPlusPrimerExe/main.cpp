@@ -48,16 +48,23 @@ int main()
 	// f(2.56, 3.14);
 
 	// Exe8_4();
-	list<deque<int>> val;
+
 	// val.push_back(12);
 	// cout<<a<<endl;
-	array<int, 12>  aal;
 
-	
+	// Exe8_6("../Salesdata");
+	// Exe8_7("../Salesdata", "outfile");
+	Exe8_8("../Salesdata", "outfile");
+
+	string cin2string;
+	getline(cin, cin2string);
+	istringstream indata(cin2string);
+
+	Exe8_1(indata);
+
+
 #ifdef __WINDOWS_
-
 	system(" pause ");
-
 #endif
 
 	return 0;

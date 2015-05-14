@@ -1,8 +1,8 @@
 ///hcl 2015-3-29 22:18:27
 //
-#ifdef __WINDOWS_
-	#pragma once;
-#endif
+
+#ifndef  CPLUSPLUSEXE_H 
+#define  CPLUSPLUSEXE_H
 
 #include <iostream>
 #include <vector>
@@ -13,6 +13,7 @@
 #include <initializer_list>
 #include <algorithm>
 #include <fstream>
+#include <sstream>
 
 using namespace std;
 
@@ -64,4 +65,10 @@ auto Exe6_38(int i)->int(&)[5];
 istream&  Exe8_1(istream& in);
 void Exe8_4();
 void Exe8_5();
-void Exe8_6();
+void Exe8_6(string fileName);
+void Exe8_7(string infileName, string outfielName);
+void Exe8_8(string infileName, string outfielName);
+
+
+
+#endif
