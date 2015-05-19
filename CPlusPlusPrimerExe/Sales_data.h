@@ -24,7 +24,7 @@ Sales_data& Sales_data::combine(const Sales_data& rhs)
 {
 	unit_sold += rhs.unit_sold;
 	revenue += rhs.revenue;
-	
+
 	return *this;
 }
 
@@ -37,14 +37,14 @@ Sales_data add(const Sales_data& lhs, const Sales_data& rhs)
 {
 	Sales_data sum = lhs;
 	sum.combine(rhs);
-	
+
 	return sum;
 }
 
 std::ostream &print(std::ostream &os, const Sales_data &item)
 {
 	os << item.isbn() << " " << item.unit_sold << " " << item.revenue << " " << item.avg_price();
-	
+
 	return os;
 }
 

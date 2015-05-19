@@ -27,7 +27,6 @@ bool Exe6_30(const string &str1, const string &str2)
 }
 
 
-
 int &Exe6_32(int *array, int index)
 {
 	return array[index];

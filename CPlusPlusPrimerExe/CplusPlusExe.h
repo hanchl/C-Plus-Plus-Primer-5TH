@@ -1,7 +1,7 @@
 ///hcl 2015-3-29 22:18:27
 //
 
-#ifndef  CPLUSPLUSEXE_H 
+#ifndef  CPLUSPLUSEXE_H
 #define  CPLUSPLUSEXE_H
 
 #include <iostream>
@@ -68,7 +68,15 @@ void Exe8_5();
 void Exe8_6(string fileName);
 void Exe8_7(string infileName, string outfielName);
 void Exe8_8(string infileName, string outfielName);
+void Exe8_9(istringstream& in);
+void Exe8_10(string infileName);
+void Exe8_11(string infileName);
 
+struct PersonInfo
+{
+	string name;
+	vector<string> phones;
+};
 
-
+void Exe8_13(string infileName);
 #endif

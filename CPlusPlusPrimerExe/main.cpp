@@ -54,14 +54,15 @@ int main()
 
 	// Exe8_6("../Salesdata");
 	// Exe8_7("../Salesdata", "outfile");
-	Exe8_8("../Salesdata", "outfile");
+	// Exe8_8("../Salesdata", "outfile");
 
-	string cin2string;
-	getline(cin, cin2string);
-	istringstream indata(cin2string);
+	// string cin2string;
+	// getline(cin, cin2string);
+	// istringstream indata(cin2string);
 
-	Exe8_1(indata);
+	// Exe8_9(indata);
 
+	Exe8_13("../Salesdata");
 
 #ifdef __WINDOWS_
 	system(" pause ");
