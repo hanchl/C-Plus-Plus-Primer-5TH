@@ -52,9 +52,9 @@ int main()
 	// val.push_back(12);
 	// cout<<a<<endl;
 
-	// Exe8_6("../Salesdata");
-	// Exe8_7("../Salesdata", "outfile");
-	// Exe8_8("../Salesdata", "outfile");
+	// Exe8_6("../Salesdata.bin");
+	// Exe8_7("../Salesdata.bin", "outfile");
+	// Exe8_8("../Salesdata.bin", "outfile");
 
 	// string cin2string;
 	// getline(cin, cin2string);
@@ -62,7 +62,16 @@ int main()
 
 	// Exe8_9(indata);
 
-	Exe8_13("../Salesdata");
+	ostream_iterator<int> out(cout, " ");
+	vector<int> vi(10);
+	
+	for_each(vi.begin(), vi.end(), [&](int &i)->void{ static int cnt = 0;i = cnt++;});
+
+	auto one = find(vi.crbegin(), vi.crend(), 5);
+	for_each(vi.cbegin(), one.base(), [&](int i){*out++ = i;});
+	// copy(vi.crbegin(), vi.crend(), out);
+	// Exe8_13("../Salesdata.bin");
+
 
 #ifdef __WINDOWS_
 	system(" pause ");
