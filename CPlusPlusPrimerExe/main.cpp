@@ -72,6 +72,10 @@ int main()
 	// copy(vi.crbegin(), vi.crend(), out);
 	// Exe8_13("../Salesdata.bin");
 
+	for (auto i :vi)
+	{
+		cout<<i;
+	}
 
 #ifdef __WINDOWS_
 	system(" pause ");
