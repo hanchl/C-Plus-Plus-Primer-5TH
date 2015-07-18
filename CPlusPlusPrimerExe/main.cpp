@@ -36,7 +36,31 @@ int recloop(int val)
 // 	return  array;
 // }
 
-
+int func(int N)
+{	
+	if (N < 2)
+	{
+		printf("wrong N ! exit\n");
+		return -1;
+	}
+	for (int i = 2; i != N + 1; ++i)
+	{
+		int j = 2;
+		for (; j != i ;++j)
+		{
+			if (i%j == 0)
+			{
+				break;
+			}
+		}
+		if (i == j)
+		{
+			printf("%d \n", i);
+		}
+	}
+	
+	return 0;
+}
 
 int main()
 {
@@ -71,11 +95,8 @@ int main()
 	for_each(vi.cbegin(), one.base(), [&](int i){*out++ = i;});
 	// copy(vi.crbegin(), vi.crend(), out);
 	// Exe8_13("../Salesdata.bin");
-
-	for (auto i :vi)
-	{
-		cout<<i;
-	}
+	cout << endl;
+	func(20);
 
 #ifdef __WINDOWS_
 	system(" pause ");

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 project(cppPrimer5thExe)
 
-set(CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS} -std=c++11 -W  ")
+#set(CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS} -std=c++11   ")
 
 # find_package( cppPrimer5thExe QUIET REQUIRED)
 

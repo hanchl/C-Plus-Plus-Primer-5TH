@@ -1,9 +1,6 @@
-#include <fstream>
-#include <sstream>
-#include <string>
-
 #include "CplusPlusExe.h"
 #include "Sales_data.h"
+
 istream&  Exe8_1(istream& in)
 {
 	auto old_state = in.rdstate();
