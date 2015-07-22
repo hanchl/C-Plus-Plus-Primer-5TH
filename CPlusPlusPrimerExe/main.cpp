@@ -98,9 +98,7 @@ int main()
 	cout << endl;
 	func(20);
 
-#ifdef __WINDOWS_
-	system(" pause ");
-#endif
+	getchar();
 
 	return 0;
 }
