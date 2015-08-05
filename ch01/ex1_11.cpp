@@ -14,8 +14,9 @@ int main()
 			max = tmp;
 		}
 
-	while ( min <= max)
-		std::cout << min++ << std::endl;
+	int i = min;
+	while ( i <= max)
+		std::cout << i++ << std::endl;
 
 	return 0;
 
